@@ -1,0 +1,17 @@
+name:
+    css: h1.a-size-large
+    xpath: '//h1[contains(concat(" ",normalize-space(@class)," ")," a-size-large ")]//span[contains(concat(" ",normalize-space(@class)," ")," a-size-large ")]'
+    type: Text
+price:
+    css: 'div#apex_desktop_newAccordionRow div.a-section.a-spacing-none span.a-price > span:nth-of-type(2)'
+    xpath: '//div[@id="apex_desktop_newAccordionRow"]//div[contains(concat(" ",normalize-space(@class)," ")," a-section ")][contains(concat(" ",normalize-space(@class)," ")," a-spacing-none ")]//span[contains(concat(" ",normalize-space(@class)," ")," a-price ")]/span[2]'
+    type: Text
+info:
+    css: 'div.a-expander-content div.a-row:nth-of-type(2) div.a-expander-content'
+    xpath: '//div[contains(concat(" ",normalize-space(@class)," ")," a-expander-content ")]//div[contains(concat(" ",normalize-space(@class)," ")," a-row ")][2]//div[contains(concat(" ",normalize-space(@class)," ")," a-expander-content ")]'
+    multiple: true
+    type: Text
+description:
+    css: 'p span'
+    xpath: //p//span
+    type: Text

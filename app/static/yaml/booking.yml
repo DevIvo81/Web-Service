@@ -1,0 +1,27 @@
+acommodation:
+    css: 'div.a826ba81c4:nth-of-type(n+3)'
+    xpath: null
+    multiple: true
+    type: Text
+    children:
+        name:
+            css: div.fcab3ed991
+            xpath: null
+            multiple: true
+            type: Text
+        price:
+            css: span.fcab3ed991
+            xpath: null
+            multiple: true
+            type: Text
+        url:
+            css: 'div.a68bfa09c2 a.fc63351294'
+            xpath: null
+            multiple: true
+            type: Link
+        image:
+            css: img.b8b0793b0e
+            xpath: null
+            multiple: true
+            type: Attribute
+            attribute: src

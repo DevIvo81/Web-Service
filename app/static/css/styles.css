@@ -1,0 +1,13 @@
+h1 {
+    color: darkblue;
+}
+
+body {
+    background: #f4f4f4;
+}
+
+/* Container Border */
+#container {
+    border: 3px double darkmagenta;
+    }
+    

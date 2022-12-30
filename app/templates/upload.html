@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}
+
+File Statistics
+
+{% endblock title %}
+
+<!-- PAGE CONTENT -->
+{% block body %}
+
+<br>
+<br>
+<div class="container" id="container">
+    <br>
+    <br>
+    <form action="http://localhost:5000/uploader" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" />
+        <input type="submit" />
+    <br>
+    <br>
+    </form>
+</div>
+
+{% endblock body %}
